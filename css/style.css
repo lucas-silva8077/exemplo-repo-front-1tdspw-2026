@@ -1,3 +1,10 @@
+
+p,h2{
+color: white;
+}
+
+
+
 body{
     background-color: #1a1b18;
     color: #d1d1c1;
@@ -9,9 +16,44 @@ body{
 }
 
 
+.nav-link{
+color: aqua;
+font-size: 16px;
+text-decoration: none;
+}
+
+a.nav-link{
+    text-decoration: none;
+}
+
+#menu{
+
+    background-color: crimson;
+    border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+
+}
+#menu li{
+    display:inline-block;
+    margin: 0 auto;
+    
+
+}
+
+
+#active-link{
+    color: rgb(206, 18, 18);
+    background-color: darkgray;
+    border-radius: 5px;
+
+}
+
 main{
     max-width: 1000px;
     margin: 0 auto;
     
 }
+
+
 
